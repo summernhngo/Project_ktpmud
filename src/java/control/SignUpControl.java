@@ -45,7 +45,7 @@ public class SignUpControl extends HttpServlet {
             Staffs a = dao.checkStaffexist(user);
             if (a==null){
                 dao.signup(user, dob ,pass);
-                response.sendRedirect("home");
+                response.sendRedirect("login");
              }else{
                 response.sendRedirect("Signup.jsp");
             }
