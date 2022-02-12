@@ -98,7 +98,7 @@
 		<div class="form-group">
 			<label class="control-label col-xs-4">Date of birth</label>
 			<div class="col-xs-8">
-                <input type="dob" class="form-control" name="dob" required="required">
+                <input type="date" class="form-control" name="dob" required="required">
             </div>        	
         </div>
 		<div class="form-group">
